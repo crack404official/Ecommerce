@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart - Live Shopping</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-main">LiVE</span>
+        <span class="logo-sub">SHOPPING</span>
+      </div>
+      <form class="search-form">
+        <input type="text" placeholder="Search Product....">
+        <button type="submit"><span class="icon-search">🔍</span></button>
+      </form>
+      <div class="header-actions">
+        <a href="tel:01403111999" class="call-btn">📞 01403111999</a>
+        <a href="cart.html" class="cart-btn">
+          <span class="icon-cart">🛒</span>
+          <span class="cart-count">2</span>
+        </a>
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown"><a href="#">Categories</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Shirt</a></li>
+            <li><a href="#">Pant</a></li>
+            <li><a href="#">Panjabi</a></li>
+            <li><a href="#">Polo</a></li>
+            <li><a href="#">T-Shirt</a></li>
+            <li><a href="#">Blazer</a></li>
+            <li><a href="#">Waistcoat</a></li>
+            <li><a href="#">Shoe</a></li>
+            <li><a href="#">Belt</a></li>
+            <li><a href="#">Jacket</a></li>
+            <li><a href="#">High Neck</a></li>
+            <li><a href="#">Hoodie</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Shop Product</a></li>
+        <li><a href="#">Best Selling</a></li>
+        <li><a href="#">Flash Sale</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="cart-main">
+    <h1 class="cart-title">Your Shopping Cart</h1>
+    <div class="cart-table-wrap">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://ext.same-assets.com/223942263/2590746815.jpeg" alt="Product" class="cart-thumb" /></td>
+            <td>Panjabi Black Edition</td>
+            <td>৳990</td>
+            <td>
+              <input type="number" value="1" min="1" class="cart-qty" />
+            </td>
+            <td>৳990</td>
+          </tr>
+          <tr>
+            <td><img src="https://ext.same-assets.com/223942263/2250554802.jpeg" alt="Product" class="cart-thumb" /></td>
+            <td>Men's Polo Classic</td>
+            <td>৳1190</td>
+            <td>
+              <input type="number" value="2" min="1" class="cart-qty" />
+            </td>
+            <td>৳2380</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cart-summary">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span class="total-amount">৳3370</span>
+      </div>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-branding">
+        <div class="logo">
+          <span class="logo-main">LiVE</span>
+          <span class="logo-sub">SHOPPING</span>
+        </div>
+        <p>Live Shopping, providing elegance &amp; lucrative outfit items sourced both locally &amp; globally.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon">IG</a>
+          <a href="#" class="social-icon">FB</a>
+          <a href="#" class="social-icon">TT</a>
+          <a href="#" class="social-icon">YT</a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <p>liveshopping.com.bd@gmail.com</p>
+        <p>01403111999</p>
+        <p>Level-15, Rupayan Trade Center<br/>Banglamotor, 114 Kazi Nazrul Islam Avenue, Dhaka-1000</p>
+      </div>
+      <div class="footer-links">
+        <h4>Services & Help</h4>
+        <ul>
+          <li>Refund and Returns Policy</li>
+          <li>Privacy Policy</li>
+          <li>About Us</li>
+          <li>Contact us</li>
+          <li>Become Our Local Partner (LLP)</li>
+        </ul>
+        <button class="outlet-btn">LIVE SHOPPING OUTLETS</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+       
+      <div class="footer-copy">© Copyright 2025 LiveShopping.com.bd Our Official <a href="#">Facebook Page</a></div>
+    </div>
+  </footer>
+</body>
+</html>
